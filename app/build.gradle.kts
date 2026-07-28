@@ -4,6 +4,11 @@ plugins {
     id("org.jetbrains.kotlin.plugin.compose")
 }
 
+val localTmpBuildDir = file("/Users/dankwawadie/.tmp_campusmesh_build")
+if (localTmpBuildDir.exists()) {
+    layout.buildDirectory.set(file("/Users/dankwawadie/.tmp_campusmesh_build/app"))
+}
+
 android {
     namespace = "edu.gctu.campusmesh"
     compileSdk = 35
