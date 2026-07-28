@@ -1,0 +1,46 @@
+name: Campus Mesh Automated Release Pipeline
+
+on:
+  push:
+    tags:
+      - 'v*'
+
+jobs:
+  build:
+    name: Build & Publish Release APK
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout Code
+        uses: actions/checkout@v4
+
+      - name: Set up JDK 17
+        uses: actions/setup-java@v4
+        with:
+          distribution: 'temurin'
+          java-version: '17'
+          cache: gradle
+
+      - name: Grant Execute Permission for Gradlew
+        run: chmod +x gradlew
+
+      - name: Run Automated Unit & Security Tests
+        run: ./gradlew test
+
+      - name: Build Standalone Release APK
+        run: ./gradlew assembleRelease
+
+      - name: Create GitHub Release & Upload APK
+        uses: softprops/action-gh-release@v2
+        with:
+          files: app/build/outputs/apk/release/app-release.apk
+          name: Campus Mesh Release ${{ github.ref_name }}
+          body: |
+            ## Campus Mesh Automated Release (${{ github.ref_name }})
+            - Full offline P2P Bluetooth LE & Wi-Fi Aware mesh support.
+            - Embedded Ktor Web Server & Safari iOS PWA support.
+            - Epidemic P2P OTA update package.
+          draft: false
+          prerelease: false
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}

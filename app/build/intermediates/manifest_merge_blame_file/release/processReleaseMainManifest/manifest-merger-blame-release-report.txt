@@ -1,0 +1,214 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="edu.gctu.campusmesh"
+4    android:versionCode="10"
+5    android:versionName="1.0.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="26"
+9        android:targetSdkVersion="35" />
+10
+11    <!-- Permissions for BLE Mesh & P2P Networking -->
+12    <uses-permission
+12-->/Volumes/Samsung_ssd/Downloads/bitchat-main/android_campusmesh/app/src/main/AndroidManifest.xml:6:5-95
+13        android:name="android.permission.BLUETOOTH"
+13-->/Volumes/Samsung_ssd/Downloads/bitchat-main/android_campusmesh/app/src/main/AndroidManifest.xml:6:22-65
+14        android:maxSdkVersion="30" />
+14-->/Volumes/Samsung_ssd/Downloads/bitchat-main/android_campusmesh/app/src/main/AndroidManifest.xml:6:66-92
+15    <uses-permission
+15-->/Volumes/Samsung_ssd/Downloads/bitchat-main/android_campusmesh/app/src/main/AndroidManifest.xml:7:5-101
+16        android:name="android.permission.BLUETOOTH_ADMIN"
+16-->/Volumes/Samsung_ssd/Downloads/bitchat-main/android_campusmesh/app/src/main/AndroidManifest.xml:7:22-71
+17        android:maxSdkVersion="30" />
+17-->/Volumes/Samsung_ssd/Downloads/bitchat-main/android_campusmesh/app/src/main/AndroidManifest.xml:7:72-98
+18    <uses-permission
+18-->/Volumes/Samsung_ssd/Downloads/bitchat-main/android_campusmesh/app/src/main/AndroidManifest.xml:8:5-120
+19        android:name="android.permission.BLUETOOTH_SCAN"
+19-->/Volumes/Samsung_ssd/Downloads/bitchat-main/android_campusmesh/app/src/main/AndroidManifest.xml:8:22-70
+20        android:usesPermissionFlags="neverForLocation" />
+20-->/Volumes/Samsung_ssd/Downloads/bitchat-main/android_campusmesh/app/src/main/AndroidManifest.xml:8:71-117
+21    <uses-permission android:name="android.permission.BLUETOOTH_ADVERTISE" />
+21-->/Volumes/Samsung_ssd/Downloads/bitchat-main/android_campusmesh/app/src/main/AndroidManifest.xml:9:5-78
+21-->/Volumes/Samsung_ssd/Downloads/bitchat-main/android_campusmesh/app/src/main/AndroidManifest.xml:9:22-75
+22    <uses-permission android:name="android.permission.BLUETOOTH_CONNECT" />
+22-->/Volumes/Samsung_ssd/Downloads/bitchat-main/android_campusmesh/app/src/main/AndroidManifest.xml:10:5-76
+22-->/Volumes/Samsung_ssd/Downloads/bitchat-main/android_campusmesh/app/src/main/AndroidManifest.xml:10:22-73
+23    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+23-->/Volumes/Samsung_ssd/Downloads/bitchat-main/android_campusmesh/app/src/main/AndroidManifest.xml:12:5-79
+23-->/Volumes/Samsung_ssd/Downloads/bitchat-main/android_campusmesh/app/src/main/AndroidManifest.xml:12:22-76
+24    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+24-->/Volumes/Samsung_ssd/Downloads/bitchat-main/android_campusmesh/app/src/main/AndroidManifest.xml:13:5-81
+24-->/Volumes/Samsung_ssd/Downloads/bitchat-main/android_campusmesh/app/src/main/AndroidManifest.xml:13:22-78
+25    <uses-permission android:name="android.permission.INTERNET" />
+25-->/Volumes/Samsung_ssd/Downloads/bitchat-main/android_campusmesh/app/src/main/AndroidManifest.xml:15:5-67
+25-->/Volumes/Samsung_ssd/Downloads/bitchat-main/android_campusmesh/app/src/main/AndroidManifest.xml:15:22-64
+26    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+26-->/Volumes/Samsung_ssd/Downloads/bitchat-main/android_campusmesh/app/src/main/AndroidManifest.xml:16:5-79
+26-->/Volumes/Samsung_ssd/Downloads/bitchat-main/android_campusmesh/app/src/main/AndroidManifest.xml:16:22-76
+27    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+27-->/Volumes/Samsung_ssd/Downloads/bitchat-main/android_campusmesh/app/src/main/AndroidManifest.xml:17:5-76
+27-->/Volumes/Samsung_ssd/Downloads/bitchat-main/android_campusmesh/app/src/main/AndroidManifest.xml:17:22-73
+28    <uses-permission android:name="android.permission.CHANGE_WIFI_STATE" />
+28-->/Volumes/Samsung_ssd/Downloads/bitchat-main/android_campusmesh/app/src/main/AndroidManifest.xml:18:5-76
+28-->/Volumes/Samsung_ssd/Downloads/bitchat-main/android_campusmesh/app/src/main/AndroidManifest.xml:18:22-73
+29    <uses-permission
+29-->/Volumes/Samsung_ssd/Downloads/bitchat-main/android_campusmesh/app/src/main/AndroidManifest.xml:19:5-125
+30        android:name="android.permission.NEARBY_WIFI_DEVICES"
+30-->/Volumes/Samsung_ssd/Downloads/bitchat-main/android_campusmesh/app/src/main/AndroidManifest.xml:19:22-75
+31        android:usesPermissionFlags="neverForLocation" />
+31-->/Volumes/Samsung_ssd/Downloads/bitchat-main/android_campusmesh/app/src/main/AndroidManifest.xml:19:76-122
+32    <uses-permission android:name="android.permission.FOREGROUND_SERVICE" />
+32-->/Volumes/Samsung_ssd/Downloads/bitchat-main/android_campusmesh/app/src/main/AndroidManifest.xml:21:5-77
+32-->/Volumes/Samsung_ssd/Downloads/bitchat-main/android_campusmesh/app/src/main/AndroidManifest.xml:21:22-74
+33    <uses-permission android:name="android.permission.FOREGROUND_SERVICE_CONNECTED_DEVICE" />
+33-->/Volumes/Samsung_ssd/Downloads/bitchat-main/android_campusmesh/app/src/main/AndroidManifest.xml:22:5-94
+33-->/Volumes/Samsung_ssd/Downloads/bitchat-main/android_campusmesh/app/src/main/AndroidManifest.xml:22:22-91
+34    <uses-permission android:name="android.permission.POST_NOTIFICATIONS" />
+34-->/Volumes/Samsung_ssd/Downloads/bitchat-main/android_campusmesh/app/src/main/AndroidManifest.xml:23:5-77
+34-->/Volumes/Samsung_ssd/Downloads/bitchat-main/android_campusmesh/app/src/main/AndroidManifest.xml:23:22-74
+35    <uses-permission android:name="android.permission.REQUEST_INSTALL_PACKAGES" />
+35-->/Volumes/Samsung_ssd/Downloads/bitchat-main/android_campusmesh/app/src/main/AndroidManifest.xml:24:5-83
+35-->/Volumes/Samsung_ssd/Downloads/bitchat-main/android_campusmesh/app/src/main/AndroidManifest.xml:24:22-80
+36
+37    <permission
+37-->[androidx.core:core:1.15.0] /Users/dankwawadie/.gradle/caches/9.1.0/transforms/b8ad1c9bf78bbb933397d040ffe36b33/transformed/core-1.15.0/AndroidManifest.xml:22:5-24:47
+38        android:name="edu.gctu.campusmesh.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+38-->[androidx.core:core:1.15.0] /Users/dankwawadie/.gradle/caches/9.1.0/transforms/b8ad1c9bf78bbb933397d040ffe36b33/transformed/core-1.15.0/AndroidManifest.xml:23:9-81
+39        android:protectionLevel="signature" />
+39-->[androidx.core:core:1.15.0] /Users/dankwawadie/.gradle/caches/9.1.0/transforms/b8ad1c9bf78bbb933397d040ffe36b33/transformed/core-1.15.0/AndroidManifest.xml:24:9-44
+40
+41    <uses-permission android:name="edu.gctu.campusmesh.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" />
+41-->[androidx.core:core:1.15.0] /Users/dankwawadie/.gradle/caches/9.1.0/transforms/b8ad1c9bf78bbb933397d040ffe36b33/transformed/core-1.15.0/AndroidManifest.xml:26:5-97
+41-->[androidx.core:core:1.15.0] /Users/dankwawadie/.gradle/caches/9.1.0/transforms/b8ad1c9bf78bbb933397d040ffe36b33/transformed/core-1.15.0/AndroidManifest.xml:26:22-94
+42
+43    <application
+43-->/Volumes/Samsung_ssd/Downloads/bitchat-main/android_campusmesh/app/src/main/AndroidManifest.xml:26:5-59:19
+44        android:allowBackup="true"
+44-->/Volumes/Samsung_ssd/Downloads/bitchat-main/android_campusmesh/app/src/main/AndroidManifest.xml:27:9-35
+45        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+45-->[androidx.core:core:1.15.0] /Users/dankwawadie/.gradle/caches/9.1.0/transforms/b8ad1c9bf78bbb933397d040ffe36b33/transformed/core-1.15.0/AndroidManifest.xml:28:18-86
+46        android:extractNativeLibs="false"
+47        android:icon="@android:drawable/sym_def_app_icon"
+47-->/Volumes/Samsung_ssd/Downloads/bitchat-main/android_campusmesh/app/src/main/AndroidManifest.xml:28:9-58
+48        android:label="@string/app_name"
+48-->/Volumes/Samsung_ssd/Downloads/bitchat-main/android_campusmesh/app/src/main/AndroidManifest.xml:29:9-41
+49        android:supportsRtl="true"
+49-->/Volumes/Samsung_ssd/Downloads/bitchat-main/android_campusmesh/app/src/main/AndroidManifest.xml:30:9-35
+50        android:theme="@style/Theme.CampusMesh" >
+50-->/Volumes/Samsung_ssd/Downloads/bitchat-main/android_campusmesh/app/src/main/AndroidManifest.xml:31:9-48
+51        <activity
+51-->/Volumes/Samsung_ssd/Downloads/bitchat-main/android_campusmesh/app/src/main/AndroidManifest.xml:34:9-42:20
+52            android:name="edu.gctu.campusmesh.MainActivity"
+52-->/Volumes/Samsung_ssd/Downloads/bitchat-main/android_campusmesh/app/src/main/AndroidManifest.xml:35:13-41
+53            android:exported="true"
+53-->/Volumes/Samsung_ssd/Downloads/bitchat-main/android_campusmesh/app/src/main/AndroidManifest.xml:36:13-36
+54            android:theme="@style/Theme.CampusMesh" >
+54-->/Volumes/Samsung_ssd/Downloads/bitchat-main/android_campusmesh/app/src/main/AndroidManifest.xml:37:13-52
+55            <intent-filter>
+55-->/Volumes/Samsung_ssd/Downloads/bitchat-main/android_campusmesh/app/src/main/AndroidManifest.xml:38:13-41:29
+56                <action android:name="android.intent.action.MAIN" />
+56-->/Volumes/Samsung_ssd/Downloads/bitchat-main/android_campusmesh/app/src/main/AndroidManifest.xml:39:17-69
+56-->/Volumes/Samsung_ssd/Downloads/bitchat-main/android_campusmesh/app/src/main/AndroidManifest.xml:39:25-66
+57
+58                <category android:name="android.intent.category.LAUNCHER" />
+58-->/Volumes/Samsung_ssd/Downloads/bitchat-main/android_campusmesh/app/src/main/AndroidManifest.xml:40:17-77
+58-->/Volumes/Samsung_ssd/Downloads/bitchat-main/android_campusmesh/app/src/main/AndroidManifest.xml:40:27-74
+59            </intent-filter>
+60        </activity>
+61
+62        <service
+62-->/Volumes/Samsung_ssd/Downloads/bitchat-main/android_campusmesh/app/src/main/AndroidManifest.xml:44:9-48:63
+63            android:name="edu.gctu.campusmesh.server.LocalWebGatewayServer$ForegroundService"
+63-->/Volumes/Samsung_ssd/Downloads/bitchat-main/android_campusmesh/app/src/main/AndroidManifest.xml:45:13-75
+64            android:enabled="true"
+64-->/Volumes/Samsung_ssd/Downloads/bitchat-main/android_campusmesh/app/src/main/AndroidManifest.xml:46:13-35
+65            android:exported="false"
+65-->/Volumes/Samsung_ssd/Downloads/bitchat-main/android_campusmesh/app/src/main/AndroidManifest.xml:47:13-37
+66            android:foregroundServiceType="connectedDevice" />
+66-->/Volumes/Samsung_ssd/Downloads/bitchat-main/android_campusmesh/app/src/main/AndroidManifest.xml:48:13-60
+67
+68        <provider
+68-->/Volumes/Samsung_ssd/Downloads/bitchat-main/android_campusmesh/app/src/main/AndroidManifest.xml:50:9-58:20
+69            android:name="androidx.core.content.FileProvider"
+69-->/Volumes/Samsung_ssd/Downloads/bitchat-main/android_campusmesh/app/src/main/AndroidManifest.xml:51:13-62
+70            android:authorities="edu.gctu.campusmesh.fileprovider"
+70-->/Volumes/Samsung_ssd/Downloads/bitchat-main/android_campusmesh/app/src/main/AndroidManifest.xml:52:13-67
+71            android:exported="false"
+71-->/Volumes/Samsung_ssd/Downloads/bitchat-main/android_campusmesh/app/src/main/AndroidManifest.xml:53:13-37
+72            android:grantUriPermissions="true" >
+72-->/Volumes/Samsung_ssd/Downloads/bitchat-main/android_campusmesh/app/src/main/AndroidManifest.xml:54:13-47
+73            <meta-data
+73-->/Volumes/Samsung_ssd/Downloads/bitchat-main/android_campusmesh/app/src/main/AndroidManifest.xml:55:13-57:54
+74                android:name="android.support.FILE_PROVIDER_PATHS"
+74-->/Volumes/Samsung_ssd/Downloads/bitchat-main/android_campusmesh/app/src/main/AndroidManifest.xml:56:17-67
+75                android:resource="@xml/file_paths" />
+75-->/Volumes/Samsung_ssd/Downloads/bitchat-main/android_campusmesh/app/src/main/AndroidManifest.xml:57:17-51
+76        </provider>
+77        <provider
+77-->[androidx.emoji2:emoji2:1.3.0] /Users/dankwawadie/.gradle/caches/9.1.0/transforms/a9b7b19428d2037fe82636e2e4be4c8f/transformed/emoji2-1.3.0/AndroidManifest.xml:24:9-32:20
+78            android:name="androidx.startup.InitializationProvider"
+78-->[androidx.emoji2:emoji2:1.3.0] /Users/dankwawadie/.gradle/caches/9.1.0/transforms/a9b7b19428d2037fe82636e2e4be4c8f/transformed/emoji2-1.3.0/AndroidManifest.xml:25:13-67
+79            android:authorities="edu.gctu.campusmesh.androidx-startup"
+79-->[androidx.emoji2:emoji2:1.3.0] /Users/dankwawadie/.gradle/caches/9.1.0/transforms/a9b7b19428d2037fe82636e2e4be4c8f/transformed/emoji2-1.3.0/AndroidManifest.xml:26:13-68
+80            android:exported="false" >
+80-->[androidx.emoji2:emoji2:1.3.0] /Users/dankwawadie/.gradle/caches/9.1.0/transforms/a9b7b19428d2037fe82636e2e4be4c8f/transformed/emoji2-1.3.0/AndroidManifest.xml:27:13-37
+81            <meta-data
+81-->[androidx.emoji2:emoji2:1.3.0] /Users/dankwawadie/.gradle/caches/9.1.0/transforms/a9b7b19428d2037fe82636e2e4be4c8f/transformed/emoji2-1.3.0/AndroidManifest.xml:29:13-31:52
+82                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+82-->[androidx.emoji2:emoji2:1.3.0] /Users/dankwawadie/.gradle/caches/9.1.0/transforms/a9b7b19428d2037fe82636e2e4be4c8f/transformed/emoji2-1.3.0/AndroidManifest.xml:30:17-75
+83                android:value="androidx.startup" />
+83-->[androidx.emoji2:emoji2:1.3.0] /Users/dankwawadie/.gradle/caches/9.1.0/transforms/a9b7b19428d2037fe82636e2e4be4c8f/transformed/emoji2-1.3.0/AndroidManifest.xml:31:17-49
+84            <meta-data
+84-->[androidx.lifecycle:lifecycle-process:2.8.7] /Users/dankwawadie/.gradle/caches/9.1.0/transforms/8da3907b67b55effaeb1359f99c90400/transformed/lifecycle-process-2.8.7/AndroidManifest.xml:29:13-31:52
+85                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+85-->[androidx.lifecycle:lifecycle-process:2.8.7] /Users/dankwawadie/.gradle/caches/9.1.0/transforms/8da3907b67b55effaeb1359f99c90400/transformed/lifecycle-process-2.8.7/AndroidManifest.xml:30:17-78
+86                android:value="androidx.startup" />
+86-->[androidx.lifecycle:lifecycle-process:2.8.7] /Users/dankwawadie/.gradle/caches/9.1.0/transforms/8da3907b67b55effaeb1359f99c90400/transformed/lifecycle-process-2.8.7/AndroidManifest.xml:31:17-49
+87            <meta-data
+87-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/dankwawadie/.gradle/caches/9.1.0/transforms/9d16287013272b989116d0cfbdaf7780/transformed/profileinstaller-1.3.1/AndroidManifest.xml:29:13-31:52
+88                android:name="androidx.profileinstaller.ProfileInstallerInitializer"
+88-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/dankwawadie/.gradle/caches/9.1.0/transforms/9d16287013272b989116d0cfbdaf7780/transformed/profileinstaller-1.3.1/AndroidManifest.xml:30:17-85
+89                android:value="androidx.startup" />
+89-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/dankwawadie/.gradle/caches/9.1.0/transforms/9d16287013272b989116d0cfbdaf7780/transformed/profileinstaller-1.3.1/AndroidManifest.xml:31:17-49
+90        </provider>
+91
+92        <receiver
+92-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/dankwawadie/.gradle/caches/9.1.0/transforms/9d16287013272b989116d0cfbdaf7780/transformed/profileinstaller-1.3.1/AndroidManifest.xml:34:9-52:20
+93            android:name="androidx.profileinstaller.ProfileInstallReceiver"
+93-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/dankwawadie/.gradle/caches/9.1.0/transforms/9d16287013272b989116d0cfbdaf7780/transformed/profileinstaller-1.3.1/AndroidManifest.xml:35:13-76
+94            android:directBootAware="false"
+94-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/dankwawadie/.gradle/caches/9.1.0/transforms/9d16287013272b989116d0cfbdaf7780/transformed/profileinstaller-1.3.1/AndroidManifest.xml:36:13-44
+95            android:enabled="true"
+95-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/dankwawadie/.gradle/caches/9.1.0/transforms/9d16287013272b989116d0cfbdaf7780/transformed/profileinstaller-1.3.1/AndroidManifest.xml:37:13-35
+96            android:exported="true"
+96-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/dankwawadie/.gradle/caches/9.1.0/transforms/9d16287013272b989116d0cfbdaf7780/transformed/profileinstaller-1.3.1/AndroidManifest.xml:38:13-36
+97            android:permission="android.permission.DUMP" >
+97-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/dankwawadie/.gradle/caches/9.1.0/transforms/9d16287013272b989116d0cfbdaf7780/transformed/profileinstaller-1.3.1/AndroidManifest.xml:39:13-57
+98            <intent-filter>
+98-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/dankwawadie/.gradle/caches/9.1.0/transforms/9d16287013272b989116d0cfbdaf7780/transformed/profileinstaller-1.3.1/AndroidManifest.xml:40:13-42:29
+99                <action android:name="androidx.profileinstaller.action.INSTALL_PROFILE" />
+99-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/dankwawadie/.gradle/caches/9.1.0/transforms/9d16287013272b989116d0cfbdaf7780/transformed/profileinstaller-1.3.1/AndroidManifest.xml:41:17-91
+99-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/dankwawadie/.gradle/caches/9.1.0/transforms/9d16287013272b989116d0cfbdaf7780/transformed/profileinstaller-1.3.1/AndroidManifest.xml:41:25-88
+100            </intent-filter>
+101            <intent-filter>
+101-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/dankwawadie/.gradle/caches/9.1.0/transforms/9d16287013272b989116d0cfbdaf7780/transformed/profileinstaller-1.3.1/AndroidManifest.xml:43:13-45:29
+102                <action android:name="androidx.profileinstaller.action.SKIP_FILE" />
+102-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/dankwawadie/.gradle/caches/9.1.0/transforms/9d16287013272b989116d0cfbdaf7780/transformed/profileinstaller-1.3.1/AndroidManifest.xml:44:17-85
+102-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/dankwawadie/.gradle/caches/9.1.0/transforms/9d16287013272b989116d0cfbdaf7780/transformed/profileinstaller-1.3.1/AndroidManifest.xml:44:25-82
+103            </intent-filter>
+104            <intent-filter>
+104-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/dankwawadie/.gradle/caches/9.1.0/transforms/9d16287013272b989116d0cfbdaf7780/transformed/profileinstaller-1.3.1/AndroidManifest.xml:46:13-48:29
+105                <action android:name="androidx.profileinstaller.action.SAVE_PROFILE" />
+105-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/dankwawadie/.gradle/caches/9.1.0/transforms/9d16287013272b989116d0cfbdaf7780/transformed/profileinstaller-1.3.1/AndroidManifest.xml:47:17-88
+105-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/dankwawadie/.gradle/caches/9.1.0/transforms/9d16287013272b989116d0cfbdaf7780/transformed/profileinstaller-1.3.1/AndroidManifest.xml:47:25-85
+106            </intent-filter>
+107            <intent-filter>
+107-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/dankwawadie/.gradle/caches/9.1.0/transforms/9d16287013272b989116d0cfbdaf7780/transformed/profileinstaller-1.3.1/AndroidManifest.xml:49:13-51:29
+108                <action android:name="androidx.profileinstaller.action.BENCHMARK_OPERATION" />
+108-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/dankwawadie/.gradle/caches/9.1.0/transforms/9d16287013272b989116d0cfbdaf7780/transformed/profileinstaller-1.3.1/AndroidManifest.xml:50:17-95
+108-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/dankwawadie/.gradle/caches/9.1.0/transforms/9d16287013272b989116d0cfbdaf7780/transformed/profileinstaller-1.3.1/AndroidManifest.xml:50:25-92
+109            </intent-filter>
+110        </receiver>
+111    </application>
+112
+113</manifest>

@@ -1,0 +1,387 @@
+-- Merging decision tree log ---
+manifest
+ADDED from /Volumes/Samsung_ssd/Downloads/bitchat-main/android_campusmesh/app/src/main/AndroidManifest.xml:2:1-61:12
+INJECTED from /Volumes/Samsung_ssd/Downloads/bitchat-main/android_campusmesh/app/src/main/AndroidManifest.xml:2:1-61:12
+INJECTED from /Volumes/Samsung_ssd/Downloads/bitchat-main/android_campusmesh/app/src/main/AndroidManifest.xml:2:1-61:12
+INJECTED from /Volumes/Samsung_ssd/Downloads/bitchat-main/android_campusmesh/app/src/main/AndroidManifest.xml:2:1-61:12
+MERGED from [androidx.activity:activity:1.9.3] /Users/dankwawadie/.gradle/caches/9.1.0/transforms/6b34caa8db2d3fa358b0c268c1b7dc4c/transformed/activity-1.9.3/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.activity:activity-ktx:1.9.3] /Users/dankwawadie/.gradle/caches/9.1.0/transforms/c582ddd9737240d392dfabbedd9fad76/transformed/activity-ktx-1.9.3/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.compose.material3:material3-android:1.3.1] /Users/dankwawadie/.gradle/caches/9.1.0/transforms/7244c1ee59f4ac6271c4eba5fad872bf/transformed/material3-release/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.activity:activity-compose:1.9.3] /Users/dankwawadie/.gradle/caches/9.1.0/transforms/55b3edf9fae3921aade040e3584d2165/transformed/activity-compose-1.9.3/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.compose.animation:animation-core-android:1.7.5] /Users/dankwawadie/.gradle/caches/9.1.0/transforms/a03d0a8d136ccbd25f4990b387808376/transformed/animation-core-release/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.compose.material:material-ripple-android:1.7.5] /Users/dankwawadie/.gradle/caches/9.1.0/transforms/e29fb2de0afcac17bddc71414e4b44c3/transformed/material-ripple-release/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.compose.animation:animation-android:1.7.5] /Users/dankwawadie/.gradle/caches/9.1.0/transforms/f30fe0a0674b7a5a3fba501c047f89dd/transformed/animation-release/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.compose.foundation:foundation-layout-android:1.7.5] /Users/dankwawadie/.gradle/caches/9.1.0/transforms/e5c159f9be5e8ebe642a8ebf0ab31093/transformed/foundation-layout-release/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.compose.foundation:foundation-android:1.7.5] /Users/dankwawadie/.gradle/caches/9.1.0/transforms/b5a8b1b6363ff8323117a7423b9be0eb/transformed/foundation-release/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.compose.ui:ui-unit-android:1.7.5] /Users/dankwawadie/.gradle/caches/9.1.0/transforms/84bd60818bcecc32e916ab65d0c275e1/transformed/ui-unit-release/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.compose.ui:ui-geometry-android:1.7.5] /Users/dankwawadie/.gradle/caches/9.1.0/transforms/f6f6a6fb55b8d623c719284074362777/transformed/ui-geometry-release/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.compose.ui:ui-util-android:1.7.5] /Users/dankwawadie/.gradle/caches/9.1.0/transforms/061e27bf0c8c864dc73f0cd15c0630d7/transformed/ui-util-release/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.compose.ui:ui-text-android:1.7.5] /Users/dankwawadie/.gradle/caches/9.1.0/transforms/b8f674db23e5cac6f68b6693c6c352ab/transformed/ui-text-release/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.compose.ui:ui-tooling-preview-android:1.7.5] /Users/dankwawadie/.gradle/caches/9.1.0/transforms/3a3547fd4785e9fca19044eafb9286a0/transformed/ui-tooling-preview-release/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.compose.ui:ui-graphics-android:1.7.5] /Users/dankwawadie/.gradle/caches/9.1.0/transforms/ec6b2a2cb5c70b29dc615408ea56bfcb/transformed/ui-graphics-release/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.compose.material:material-icons-core-android:1.7.5] /Users/dankwawadie/.gradle/caches/9.1.0/transforms/675c76fc8c8f45536aacba9876e2a57a/transformed/material-icons-core-release/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.compose.ui:ui-android:1.7.5] /Users/dankwawadie/.gradle/caches/9.1.0/transforms/978e326ad1e0a9e99858d88b47b5e6ae/transformed/ui-release/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.autofill:autofill:1.0.0] /Users/dankwawadie/.gradle/caches/9.1.0/transforms/f12a53cf9a93511424320fad1aa309b7/transformed/autofill-1.0.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.graphics:graphics-path:1.0.1] /Users/dankwawadie/.gradle/caches/9.1.0/transforms/a4a73de20617194e09444e63f23a0c37/transformed/graphics-path-1.0.1/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.emoji2:emoji2:1.3.0] /Users/dankwawadie/.gradle/caches/9.1.0/transforms/a9b7b19428d2037fe82636e2e4be4c8f/transformed/emoji2-1.3.0/AndroidManifest.xml:17:1-35:12
+MERGED from [androidx.core:core:1.15.0] /Users/dankwawadie/.gradle/caches/9.1.0/transforms/b8ad1c9bf78bbb933397d040ffe36b33/transformed/core-1.15.0/AndroidManifest.xml:17:1-30:12
+MERGED from [androidx.customview:customview-poolingcontainer:1.0.0] /Users/dankwawadie/.gradle/caches/9.1.0/transforms/5fc491bebe355f63c433915ef0be2d1d/transformed/customview-poolingcontainer-1.0.0/AndroidManifest.xml:17:1-23:12
+MERGED from [androidx.savedstate:savedstate-ktx:1.2.1] /Users/dankwawadie/.gradle/caches/9.1.0/transforms/ce2f7fe147ca5b4f2099638b2a2331ee/transformed/savedstate-ktx-1.2.1/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.savedstate:savedstate:1.2.1] /Users/dankwawadie/.gradle/caches/9.1.0/transforms/59effc9d00ff42c1000d04c90c3f359c/transformed/savedstate-1.2.1/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-process:2.8.7] /Users/dankwawadie/.gradle/caches/9.1.0/transforms/8da3907b67b55effaeb1359f99c90400/transformed/lifecycle-process-2.8.7/AndroidManifest.xml:17:1-35:12
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.8.7] /Users/dankwawadie/.gradle/caches/9.1.0/transforms/8c6367015a89a34d18a86e45b4f5d18a/transformed/lifecycle-livedata-core-2.8.7/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-runtime-compose-android:2.8.7] /Users/dankwawadie/.gradle/caches/9.1.0/transforms/9cf9f4ef83533ad56cf1859b0203d685/transformed/lifecycle-runtime-compose-release/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-android:2.8.7] /Users/dankwawadie/.gradle/caches/9.1.0/transforms/24ac011438b80ba821422c36e8cd8309/transformed/lifecycle-viewmodel-release/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-runtime-android:2.8.7] /Users/dankwawadie/.gradle/caches/9.1.0/transforms/27e6a819cb6f2691ccb9f108196d5bc5/transformed/lifecycle-runtime-release/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-ktx:2.8.7] /Users/dankwawadie/.gradle/caches/9.1.0/transforms/9e3e81c4523374b4a1acf925dc149c8b/transformed/lifecycle-viewmodel-ktx-2.8.7/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.lifecycle:lifecycle-runtime-ktx-android:2.8.7] /Users/dankwawadie/.gradle/caches/9.1.0/transforms/d712a4f84512767d36b12e97a344511e/transformed/lifecycle-runtime-ktx-release/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.8.7] /Users/dankwawadie/.gradle/caches/9.1.0/transforms/85b132ae5ec8d50a09da23a132447812/transformed/lifecycle-viewmodel-savedstate-2.8.7/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.core:core-ktx:1.15.0] /Users/dankwawadie/.gradle/caches/9.1.0/transforms/7640efec444acd0b0d9a91775a927d53/transformed/core-ktx-1.15.0/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.interpolator:interpolator:1.0.0] /Users/dankwawadie/.gradle/caches/9.1.0/transforms/85a0e11a1688340d91d84fac5d8eb4a9/transformed/interpolator-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.profileinstaller:profileinstaller:1.3.1] /Users/dankwawadie/.gradle/caches/9.1.0/transforms/9d16287013272b989116d0cfbdaf7780/transformed/profileinstaller-1.3.1/AndroidManifest.xml:17:1-55:12
+MERGED from [androidx.startup:startup-runtime:1.1.1] /Users/dankwawadie/.gradle/caches/9.1.0/transforms/b3df8f1ca970324307684e9333b45f3a/transformed/startup-runtime-1.1.1/AndroidManifest.xml:17:1-33:12
+MERGED from [androidx.tracing:tracing:1.2.0] /Users/dankwawadie/.gradle/caches/9.1.0/transforms/5aabfc970064036b660b77948b85d9e1/transformed/tracing-1.2.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /Users/dankwawadie/.gradle/caches/9.1.0/transforms/1383cb4e561f1c932d6342b21145d764/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:17:1-27:12
+MERGED from [androidx.compose.runtime:runtime-android:1.7.5] /Users/dankwawadie/.gradle/caches/9.1.0/transforms/0e1fbb770928f14a85f996f2aee45cfb/transformed/runtime-release/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.compose.runtime:runtime-saveable-android:1.7.5] /Users/dankwawadie/.gradle/caches/9.1.0/transforms/5d24fd962b4cd36a0739b8f734a8e358/transformed/runtime-saveable-release/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.arch.core:core-runtime:2.2.0] /Users/dankwawadie/.gradle/caches/9.1.0/transforms/9421cf7b193e61c9f5f66e6aac549aed/transformed/core-runtime-2.2.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.annotation:annotation-experimental:1.4.1] /Users/dankwawadie/.gradle/caches/9.1.0/transforms/2ae0361fa3f25bbe70ad753dfc425b7d/transformed/annotation-experimental-1.4.1/AndroidManifest.xml:2:1-7:12
+	package
+		INJECTED from /Volumes/Samsung_ssd/Downloads/bitchat-main/android_campusmesh/app/src/main/AndroidManifest.xml
+	android:versionName
+		INJECTED from /Volumes/Samsung_ssd/Downloads/bitchat-main/android_campusmesh/app/src/main/AndroidManifest.xml
+	xmlns:tools
+		ADDED from /Volumes/Samsung_ssd/Downloads/bitchat-main/android_campusmesh/app/src/main/AndroidManifest.xml:3:5-51
+	android:versionCode
+		INJECTED from /Volumes/Samsung_ssd/Downloads/bitchat-main/android_campusmesh/app/src/main/AndroidManifest.xml
+	xmlns:android
+		ADDED from /Volumes/Samsung_ssd/Downloads/bitchat-main/android_campusmesh/app/src/main/AndroidManifest.xml:2:11-69
+uses-permission#android.permission.BLUETOOTH
+ADDED from /Volumes/Samsung_ssd/Downloads/bitchat-main/android_campusmesh/app/src/main/AndroidManifest.xml:6:5-95
+	android:maxSdkVersion
+		ADDED from /Volumes/Samsung_ssd/Downloads/bitchat-main/android_campusmesh/app/src/main/AndroidManifest.xml:6:66-92
+	android:name
+		ADDED from /Volumes/Samsung_ssd/Downloads/bitchat-main/android_campusmesh/app/src/main/AndroidManifest.xml:6:22-65
+uses-permission#android.permission.BLUETOOTH_ADMIN
+ADDED from /Volumes/Samsung_ssd/Downloads/bitchat-main/android_campusmesh/app/src/main/AndroidManifest.xml:7:5-101
+	android:maxSdkVersion
+		ADDED from /Volumes/Samsung_ssd/Downloads/bitchat-main/android_campusmesh/app/src/main/AndroidManifest.xml:7:72-98
+	android:name
+		ADDED from /Volumes/Samsung_ssd/Downloads/bitchat-main/android_campusmesh/app/src/main/AndroidManifest.xml:7:22-71
+uses-permission#android.permission.BLUETOOTH_SCAN
+ADDED from /Volumes/Samsung_ssd/Downloads/bitchat-main/android_campusmesh/app/src/main/AndroidManifest.xml:8:5-120
+	android:usesPermissionFlags
+		ADDED from /Volumes/Samsung_ssd/Downloads/bitchat-main/android_campusmesh/app/src/main/AndroidManifest.xml:8:71-117
+	android:name
+		ADDED from /Volumes/Samsung_ssd/Downloads/bitchat-main/android_campusmesh/app/src/main/AndroidManifest.xml:8:22-70
+uses-permission#android.permission.BLUETOOTH_ADVERTISE
+ADDED from /Volumes/Samsung_ssd/Downloads/bitchat-main/android_campusmesh/app/src/main/AndroidManifest.xml:9:5-78
+	android:name
+		ADDED from /Volumes/Samsung_ssd/Downloads/bitchat-main/android_campusmesh/app/src/main/AndroidManifest.xml:9:22-75
+uses-permission#android.permission.BLUETOOTH_CONNECT
+ADDED from /Volumes/Samsung_ssd/Downloads/bitchat-main/android_campusmesh/app/src/main/AndroidManifest.xml:10:5-76
+	android:name
+		ADDED from /Volumes/Samsung_ssd/Downloads/bitchat-main/android_campusmesh/app/src/main/AndroidManifest.xml:10:22-73
+uses-permission#android.permission.ACCESS_FINE_LOCATION
+ADDED from /Volumes/Samsung_ssd/Downloads/bitchat-main/android_campusmesh/app/src/main/AndroidManifest.xml:12:5-79
+	android:name
+		ADDED from /Volumes/Samsung_ssd/Downloads/bitchat-main/android_campusmesh/app/src/main/AndroidManifest.xml:12:22-76
+uses-permission#android.permission.ACCESS_COARSE_LOCATION
+ADDED from /Volumes/Samsung_ssd/Downloads/bitchat-main/android_campusmesh/app/src/main/AndroidManifest.xml:13:5-81
+	android:name
+		ADDED from /Volumes/Samsung_ssd/Downloads/bitchat-main/android_campusmesh/app/src/main/AndroidManifest.xml:13:22-78
+uses-permission#android.permission.INTERNET
+ADDED from /Volumes/Samsung_ssd/Downloads/bitchat-main/android_campusmesh/app/src/main/AndroidManifest.xml:15:5-67
+	android:name
+		ADDED from /Volumes/Samsung_ssd/Downloads/bitchat-main/android_campusmesh/app/src/main/AndroidManifest.xml:15:22-64
+uses-permission#android.permission.ACCESS_NETWORK_STATE
+ADDED from /Volumes/Samsung_ssd/Downloads/bitchat-main/android_campusmesh/app/src/main/AndroidManifest.xml:16:5-79
+	android:name
+		ADDED from /Volumes/Samsung_ssd/Downloads/bitchat-main/android_campusmesh/app/src/main/AndroidManifest.xml:16:22-76
+uses-permission#android.permission.ACCESS_WIFI_STATE
+ADDED from /Volumes/Samsung_ssd/Downloads/bitchat-main/android_campusmesh/app/src/main/AndroidManifest.xml:17:5-76
+	android:name
+		ADDED from /Volumes/Samsung_ssd/Downloads/bitchat-main/android_campusmesh/app/src/main/AndroidManifest.xml:17:22-73
+uses-permission#android.permission.CHANGE_WIFI_STATE
+ADDED from /Volumes/Samsung_ssd/Downloads/bitchat-main/android_campusmesh/app/src/main/AndroidManifest.xml:18:5-76
+	android:name
+		ADDED from /Volumes/Samsung_ssd/Downloads/bitchat-main/android_campusmesh/app/src/main/AndroidManifest.xml:18:22-73
+uses-permission#android.permission.NEARBY_WIFI_DEVICES
+ADDED from /Volumes/Samsung_ssd/Downloads/bitchat-main/android_campusmesh/app/src/main/AndroidManifest.xml:19:5-125
+	android:usesPermissionFlags
+		ADDED from /Volumes/Samsung_ssd/Downloads/bitchat-main/android_campusmesh/app/src/main/AndroidManifest.xml:19:76-122
+	android:name
+		ADDED from /Volumes/Samsung_ssd/Downloads/bitchat-main/android_campusmesh/app/src/main/AndroidManifest.xml:19:22-75
+uses-permission#android.permission.FOREGROUND_SERVICE
+ADDED from /Volumes/Samsung_ssd/Downloads/bitchat-main/android_campusmesh/app/src/main/AndroidManifest.xml:21:5-77
+	android:name
+		ADDED from /Volumes/Samsung_ssd/Downloads/bitchat-main/android_campusmesh/app/src/main/AndroidManifest.xml:21:22-74
+uses-permission#android.permission.FOREGROUND_SERVICE_CONNECTED_DEVICE
+ADDED from /Volumes/Samsung_ssd/Downloads/bitchat-main/android_campusmesh/app/src/main/AndroidManifest.xml:22:5-94
+	android:name
+		ADDED from /Volumes/Samsung_ssd/Downloads/bitchat-main/android_campusmesh/app/src/main/AndroidManifest.xml:22:22-91
+uses-permission#android.permission.POST_NOTIFICATIONS
+ADDED from /Volumes/Samsung_ssd/Downloads/bitchat-main/android_campusmesh/app/src/main/AndroidManifest.xml:23:5-77
+	android:name
+		ADDED from /Volumes/Samsung_ssd/Downloads/bitchat-main/android_campusmesh/app/src/main/AndroidManifest.xml:23:22-74
+uses-permission#android.permission.REQUEST_INSTALL_PACKAGES
+ADDED from /Volumes/Samsung_ssd/Downloads/bitchat-main/android_campusmesh/app/src/main/AndroidManifest.xml:24:5-83
+	android:name
+		ADDED from /Volumes/Samsung_ssd/Downloads/bitchat-main/android_campusmesh/app/src/main/AndroidManifest.xml:24:22-80
+application
+ADDED from /Volumes/Samsung_ssd/Downloads/bitchat-main/android_campusmesh/app/src/main/AndroidManifest.xml:26:5-59:19
+INJECTED from /Volumes/Samsung_ssd/Downloads/bitchat-main/android_campusmesh/app/src/main/AndroidManifest.xml:26:5-59:19
+MERGED from [androidx.emoji2:emoji2:1.3.0] /Users/dankwawadie/.gradle/caches/9.1.0/transforms/a9b7b19428d2037fe82636e2e4be4c8f/transformed/emoji2-1.3.0/AndroidManifest.xml:23:5-33:19
+MERGED from [androidx.emoji2:emoji2:1.3.0] /Users/dankwawadie/.gradle/caches/9.1.0/transforms/a9b7b19428d2037fe82636e2e4be4c8f/transformed/emoji2-1.3.0/AndroidManifest.xml:23:5-33:19
+MERGED from [androidx.core:core:1.15.0] /Users/dankwawadie/.gradle/caches/9.1.0/transforms/b8ad1c9bf78bbb933397d040ffe36b33/transformed/core-1.15.0/AndroidManifest.xml:28:5-89
+MERGED from [androidx.core:core:1.15.0] /Users/dankwawadie/.gradle/caches/9.1.0/transforms/b8ad1c9bf78bbb933397d040ffe36b33/transformed/core-1.15.0/AndroidManifest.xml:28:5-89
+MERGED from [androidx.lifecycle:lifecycle-process:2.8.7] /Users/dankwawadie/.gradle/caches/9.1.0/transforms/8da3907b67b55effaeb1359f99c90400/transformed/lifecycle-process-2.8.7/AndroidManifest.xml:23:5-33:19
+MERGED from [androidx.lifecycle:lifecycle-process:2.8.7] /Users/dankwawadie/.gradle/caches/9.1.0/transforms/8da3907b67b55effaeb1359f99c90400/transformed/lifecycle-process-2.8.7/AndroidManifest.xml:23:5-33:19
+MERGED from [androidx.profileinstaller:profileinstaller:1.3.1] /Users/dankwawadie/.gradle/caches/9.1.0/transforms/9d16287013272b989116d0cfbdaf7780/transformed/profileinstaller-1.3.1/AndroidManifest.xml:23:5-53:19
+MERGED from [androidx.profileinstaller:profileinstaller:1.3.1] /Users/dankwawadie/.gradle/caches/9.1.0/transforms/9d16287013272b989116d0cfbdaf7780/transformed/profileinstaller-1.3.1/AndroidManifest.xml:23:5-53:19
+MERGED from [androidx.startup:startup-runtime:1.1.1] /Users/dankwawadie/.gradle/caches/9.1.0/transforms/b3df8f1ca970324307684e9333b45f3a/transformed/startup-runtime-1.1.1/AndroidManifest.xml:25:5-31:19
+MERGED from [androidx.startup:startup-runtime:1.1.1] /Users/dankwawadie/.gradle/caches/9.1.0/transforms/b3df8f1ca970324307684e9333b45f3a/transformed/startup-runtime-1.1.1/AndroidManifest.xml:25:5-31:19
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /Users/dankwawadie/.gradle/caches/9.1.0/transforms/1383cb4e561f1c932d6342b21145d764/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:24:5-25:19
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /Users/dankwawadie/.gradle/caches/9.1.0/transforms/1383cb4e561f1c932d6342b21145d764/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:24:5-25:19
+	android:extractNativeLibs
+		INJECTED from /Volumes/Samsung_ssd/Downloads/bitchat-main/android_campusmesh/app/src/main/AndroidManifest.xml
+	android:appComponentFactory
+		ADDED from [androidx.core:core:1.15.0] /Users/dankwawadie/.gradle/caches/9.1.0/transforms/b8ad1c9bf78bbb933397d040ffe36b33/transformed/core-1.15.0/AndroidManifest.xml:28:18-86
+	android:supportsRtl
+		ADDED from /Volumes/Samsung_ssd/Downloads/bitchat-main/android_campusmesh/app/src/main/AndroidManifest.xml:30:9-35
+	android:label
+		ADDED from /Volumes/Samsung_ssd/Downloads/bitchat-main/android_campusmesh/app/src/main/AndroidManifest.xml:29:9-41
+	tools:targetApi
+		ADDED from /Volumes/Samsung_ssd/Downloads/bitchat-main/android_campusmesh/app/src/main/AndroidManifest.xml:32:9-29
+	android:icon
+		ADDED from /Volumes/Samsung_ssd/Downloads/bitchat-main/android_campusmesh/app/src/main/AndroidManifest.xml:28:9-58
+	android:allowBackup
+		ADDED from /Volumes/Samsung_ssd/Downloads/bitchat-main/android_campusmesh/app/src/main/AndroidManifest.xml:27:9-35
+	android:theme
+		ADDED from /Volumes/Samsung_ssd/Downloads/bitchat-main/android_campusmesh/app/src/main/AndroidManifest.xml:31:9-48
+activity#edu.gctu.campusmesh.MainActivity
+ADDED from /Volumes/Samsung_ssd/Downloads/bitchat-main/android_campusmesh/app/src/main/AndroidManifest.xml:34:9-42:20
+	android:exported
+		ADDED from /Volumes/Samsung_ssd/Downloads/bitchat-main/android_campusmesh/app/src/main/AndroidManifest.xml:36:13-36
+	android:theme
+		ADDED from /Volumes/Samsung_ssd/Downloads/bitchat-main/android_campusmesh/app/src/main/AndroidManifest.xml:37:13-52
+	android:name
+		ADDED from /Volumes/Samsung_ssd/Downloads/bitchat-main/android_campusmesh/app/src/main/AndroidManifest.xml:35:13-41
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
+ADDED from /Volumes/Samsung_ssd/Downloads/bitchat-main/android_campusmesh/app/src/main/AndroidManifest.xml:38:13-41:29
+action#android.intent.action.MAIN
+ADDED from /Volumes/Samsung_ssd/Downloads/bitchat-main/android_campusmesh/app/src/main/AndroidManifest.xml:39:17-69
+	android:name
+		ADDED from /Volumes/Samsung_ssd/Downloads/bitchat-main/android_campusmesh/app/src/main/AndroidManifest.xml:39:25-66
+category#android.intent.category.LAUNCHER
+ADDED from /Volumes/Samsung_ssd/Downloads/bitchat-main/android_campusmesh/app/src/main/AndroidManifest.xml:40:17-77
+	android:name
+		ADDED from /Volumes/Samsung_ssd/Downloads/bitchat-main/android_campusmesh/app/src/main/AndroidManifest.xml:40:27-74
+service#edu.gctu.campusmesh.server.LocalWebGatewayServer$ForegroundService
+ADDED from /Volumes/Samsung_ssd/Downloads/bitchat-main/android_campusmesh/app/src/main/AndroidManifest.xml:44:9-48:63
+	android:enabled
+		ADDED from /Volumes/Samsung_ssd/Downloads/bitchat-main/android_campusmesh/app/src/main/AndroidManifest.xml:46:13-35
+	android:exported
+		ADDED from /Volumes/Samsung_ssd/Downloads/bitchat-main/android_campusmesh/app/src/main/AndroidManifest.xml:47:13-37
+	android:foregroundServiceType
+		ADDED from /Volumes/Samsung_ssd/Downloads/bitchat-main/android_campusmesh/app/src/main/AndroidManifest.xml:48:13-60
+	android:name
+		ADDED from /Volumes/Samsung_ssd/Downloads/bitchat-main/android_campusmesh/app/src/main/AndroidManifest.xml:45:13-75
+provider#androidx.core.content.FileProvider
+ADDED from /Volumes/Samsung_ssd/Downloads/bitchat-main/android_campusmesh/app/src/main/AndroidManifest.xml:50:9-58:20
+	android:grantUriPermissions
+		ADDED from /Volumes/Samsung_ssd/Downloads/bitchat-main/android_campusmesh/app/src/main/AndroidManifest.xml:54:13-47
+	android:authorities
+		ADDED from /Volumes/Samsung_ssd/Downloads/bitchat-main/android_campusmesh/app/src/main/AndroidManifest.xml:52:13-67
+	android:exported
+		ADDED from /Volumes/Samsung_ssd/Downloads/bitchat-main/android_campusmesh/app/src/main/AndroidManifest.xml:53:13-37
+	android:name
+		ADDED from /Volumes/Samsung_ssd/Downloads/bitchat-main/android_campusmesh/app/src/main/AndroidManifest.xml:51:13-62
+meta-data#android.support.FILE_PROVIDER_PATHS
+ADDED from /Volumes/Samsung_ssd/Downloads/bitchat-main/android_campusmesh/app/src/main/AndroidManifest.xml:55:13-57:54
+	android:resource
+		ADDED from /Volumes/Samsung_ssd/Downloads/bitchat-main/android_campusmesh/app/src/main/AndroidManifest.xml:57:17-51
+	android:name
+		ADDED from /Volumes/Samsung_ssd/Downloads/bitchat-main/android_campusmesh/app/src/main/AndroidManifest.xml:56:17-67
+uses-sdk
+INJECTED from /Volumes/Samsung_ssd/Downloads/bitchat-main/android_campusmesh/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from /Volumes/Samsung_ssd/Downloads/bitchat-main/android_campusmesh/app/src/main/AndroidManifest.xml
+INJECTED from /Volumes/Samsung_ssd/Downloads/bitchat-main/android_campusmesh/app/src/main/AndroidManifest.xml
+MERGED from [androidx.activity:activity:1.9.3] /Users/dankwawadie/.gradle/caches/9.1.0/transforms/6b34caa8db2d3fa358b0c268c1b7dc4c/transformed/activity-1.9.3/AndroidManifest.xml:20:5-44
+MERGED from [androidx.activity:activity:1.9.3] /Users/dankwawadie/.gradle/caches/9.1.0/transforms/6b34caa8db2d3fa358b0c268c1b7dc4c/transformed/activity-1.9.3/AndroidManifest.xml:20:5-44
+MERGED from [androidx.activity:activity-ktx:1.9.3] /Users/dankwawadie/.gradle/caches/9.1.0/transforms/c582ddd9737240d392dfabbedd9fad76/transformed/activity-ktx-1.9.3/AndroidManifest.xml:5:5-44
+MERGED from [androidx.activity:activity-ktx:1.9.3] /Users/dankwawadie/.gradle/caches/9.1.0/transforms/c582ddd9737240d392dfabbedd9fad76/transformed/activity-ktx-1.9.3/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.material3:material3-android:1.3.1] /Users/dankwawadie/.gradle/caches/9.1.0/transforms/7244c1ee59f4ac6271c4eba5fad872bf/transformed/material3-release/AndroidManifest.xml:20:5-44
+MERGED from [androidx.compose.material3:material3-android:1.3.1] /Users/dankwawadie/.gradle/caches/9.1.0/transforms/7244c1ee59f4ac6271c4eba5fad872bf/transformed/material3-release/AndroidManifest.xml:20:5-44
+MERGED from [androidx.activity:activity-compose:1.9.3] /Users/dankwawadie/.gradle/caches/9.1.0/transforms/55b3edf9fae3921aade040e3584d2165/transformed/activity-compose-1.9.3/AndroidManifest.xml:5:5-44
+MERGED from [androidx.activity:activity-compose:1.9.3] /Users/dankwawadie/.gradle/caches/9.1.0/transforms/55b3edf9fae3921aade040e3584d2165/transformed/activity-compose-1.9.3/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.animation:animation-core-android:1.7.5] /Users/dankwawadie/.gradle/caches/9.1.0/transforms/a03d0a8d136ccbd25f4990b387808376/transformed/animation-core-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.animation:animation-core-android:1.7.5] /Users/dankwawadie/.gradle/caches/9.1.0/transforms/a03d0a8d136ccbd25f4990b387808376/transformed/animation-core-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.material:material-ripple-android:1.7.5] /Users/dankwawadie/.gradle/caches/9.1.0/transforms/e29fb2de0afcac17bddc71414e4b44c3/transformed/material-ripple-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.material:material-ripple-android:1.7.5] /Users/dankwawadie/.gradle/caches/9.1.0/transforms/e29fb2de0afcac17bddc71414e4b44c3/transformed/material-ripple-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.animation:animation-android:1.7.5] /Users/dankwawadie/.gradle/caches/9.1.0/transforms/f30fe0a0674b7a5a3fba501c047f89dd/transformed/animation-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.animation:animation-android:1.7.5] /Users/dankwawadie/.gradle/caches/9.1.0/transforms/f30fe0a0674b7a5a3fba501c047f89dd/transformed/animation-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.foundation:foundation-layout-android:1.7.5] /Users/dankwawadie/.gradle/caches/9.1.0/transforms/e5c159f9be5e8ebe642a8ebf0ab31093/transformed/foundation-layout-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.foundation:foundation-layout-android:1.7.5] /Users/dankwawadie/.gradle/caches/9.1.0/transforms/e5c159f9be5e8ebe642a8ebf0ab31093/transformed/foundation-layout-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.foundation:foundation-android:1.7.5] /Users/dankwawadie/.gradle/caches/9.1.0/transforms/b5a8b1b6363ff8323117a7423b9be0eb/transformed/foundation-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.foundation:foundation-android:1.7.5] /Users/dankwawadie/.gradle/caches/9.1.0/transforms/b5a8b1b6363ff8323117a7423b9be0eb/transformed/foundation-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.ui:ui-unit-android:1.7.5] /Users/dankwawadie/.gradle/caches/9.1.0/transforms/84bd60818bcecc32e916ab65d0c275e1/transformed/ui-unit-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.ui:ui-unit-android:1.7.5] /Users/dankwawadie/.gradle/caches/9.1.0/transforms/84bd60818bcecc32e916ab65d0c275e1/transformed/ui-unit-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.ui:ui-geometry-android:1.7.5] /Users/dankwawadie/.gradle/caches/9.1.0/transforms/f6f6a6fb55b8d623c719284074362777/transformed/ui-geometry-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.ui:ui-geometry-android:1.7.5] /Users/dankwawadie/.gradle/caches/9.1.0/transforms/f6f6a6fb55b8d623c719284074362777/transformed/ui-geometry-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.ui:ui-util-android:1.7.5] /Users/dankwawadie/.gradle/caches/9.1.0/transforms/061e27bf0c8c864dc73f0cd15c0630d7/transformed/ui-util-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.ui:ui-util-android:1.7.5] /Users/dankwawadie/.gradle/caches/9.1.0/transforms/061e27bf0c8c864dc73f0cd15c0630d7/transformed/ui-util-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.ui:ui-text-android:1.7.5] /Users/dankwawadie/.gradle/caches/9.1.0/transforms/b8f674db23e5cac6f68b6693c6c352ab/transformed/ui-text-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.ui:ui-text-android:1.7.5] /Users/dankwawadie/.gradle/caches/9.1.0/transforms/b8f674db23e5cac6f68b6693c6c352ab/transformed/ui-text-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.ui:ui-tooling-preview-android:1.7.5] /Users/dankwawadie/.gradle/caches/9.1.0/transforms/3a3547fd4785e9fca19044eafb9286a0/transformed/ui-tooling-preview-release/AndroidManifest.xml:20:5-44
+MERGED from [androidx.compose.ui:ui-tooling-preview-android:1.7.5] /Users/dankwawadie/.gradle/caches/9.1.0/transforms/3a3547fd4785e9fca19044eafb9286a0/transformed/ui-tooling-preview-release/AndroidManifest.xml:20:5-44
+MERGED from [androidx.compose.ui:ui-graphics-android:1.7.5] /Users/dankwawadie/.gradle/caches/9.1.0/transforms/ec6b2a2cb5c70b29dc615408ea56bfcb/transformed/ui-graphics-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.ui:ui-graphics-android:1.7.5] /Users/dankwawadie/.gradle/caches/9.1.0/transforms/ec6b2a2cb5c70b29dc615408ea56bfcb/transformed/ui-graphics-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.material:material-icons-core-android:1.7.5] /Users/dankwawadie/.gradle/caches/9.1.0/transforms/675c76fc8c8f45536aacba9876e2a57a/transformed/material-icons-core-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.material:material-icons-core-android:1.7.5] /Users/dankwawadie/.gradle/caches/9.1.0/transforms/675c76fc8c8f45536aacba9876e2a57a/transformed/material-icons-core-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.ui:ui-android:1.7.5] /Users/dankwawadie/.gradle/caches/9.1.0/transforms/978e326ad1e0a9e99858d88b47b5e6ae/transformed/ui-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.ui:ui-android:1.7.5] /Users/dankwawadie/.gradle/caches/9.1.0/transforms/978e326ad1e0a9e99858d88b47b5e6ae/transformed/ui-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.autofill:autofill:1.0.0] /Users/dankwawadie/.gradle/caches/9.1.0/transforms/f12a53cf9a93511424320fad1aa309b7/transformed/autofill-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.autofill:autofill:1.0.0] /Users/dankwawadie/.gradle/caches/9.1.0/transforms/f12a53cf9a93511424320fad1aa309b7/transformed/autofill-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.graphics:graphics-path:1.0.1] /Users/dankwawadie/.gradle/caches/9.1.0/transforms/a4a73de20617194e09444e63f23a0c37/transformed/graphics-path-1.0.1/AndroidManifest.xml:5:5-44
+MERGED from [androidx.graphics:graphics-path:1.0.1] /Users/dankwawadie/.gradle/caches/9.1.0/transforms/a4a73de20617194e09444e63f23a0c37/transformed/graphics-path-1.0.1/AndroidManifest.xml:5:5-44
+MERGED from [androidx.emoji2:emoji2:1.3.0] /Users/dankwawadie/.gradle/caches/9.1.0/transforms/a9b7b19428d2037fe82636e2e4be4c8f/transformed/emoji2-1.3.0/AndroidManifest.xml:21:5-44
+MERGED from [androidx.emoji2:emoji2:1.3.0] /Users/dankwawadie/.gradle/caches/9.1.0/transforms/a9b7b19428d2037fe82636e2e4be4c8f/transformed/emoji2-1.3.0/AndroidManifest.xml:21:5-44
+MERGED from [androidx.core:core:1.15.0] /Users/dankwawadie/.gradle/caches/9.1.0/transforms/b8ad1c9bf78bbb933397d040ffe36b33/transformed/core-1.15.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.core:core:1.15.0] /Users/dankwawadie/.gradle/caches/9.1.0/transforms/b8ad1c9bf78bbb933397d040ffe36b33/transformed/core-1.15.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.customview:customview-poolingcontainer:1.0.0] /Users/dankwawadie/.gradle/caches/9.1.0/transforms/5fc491bebe355f63c433915ef0be2d1d/transformed/customview-poolingcontainer-1.0.0/AndroidManifest.xml:20:5-21:38
+MERGED from [androidx.customview:customview-poolingcontainer:1.0.0] /Users/dankwawadie/.gradle/caches/9.1.0/transforms/5fc491bebe355f63c433915ef0be2d1d/transformed/customview-poolingcontainer-1.0.0/AndroidManifest.xml:20:5-21:38
+MERGED from [androidx.savedstate:savedstate-ktx:1.2.1] /Users/dankwawadie/.gradle/caches/9.1.0/transforms/ce2f7fe147ca5b4f2099638b2a2331ee/transformed/savedstate-ktx-1.2.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.savedstate:savedstate-ktx:1.2.1] /Users/dankwawadie/.gradle/caches/9.1.0/transforms/ce2f7fe147ca5b4f2099638b2a2331ee/transformed/savedstate-ktx-1.2.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.savedstate:savedstate:1.2.1] /Users/dankwawadie/.gradle/caches/9.1.0/transforms/59effc9d00ff42c1000d04c90c3f359c/transformed/savedstate-1.2.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.savedstate:savedstate:1.2.1] /Users/dankwawadie/.gradle/caches/9.1.0/transforms/59effc9d00ff42c1000d04c90c3f359c/transformed/savedstate-1.2.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-process:2.8.7] /Users/dankwawadie/.gradle/caches/9.1.0/transforms/8da3907b67b55effaeb1359f99c90400/transformed/lifecycle-process-2.8.7/AndroidManifest.xml:21:5-44
+MERGED from [androidx.lifecycle:lifecycle-process:2.8.7] /Users/dankwawadie/.gradle/caches/9.1.0/transforms/8da3907b67b55effaeb1359f99c90400/transformed/lifecycle-process-2.8.7/AndroidManifest.xml:21:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.8.7] /Users/dankwawadie/.gradle/caches/9.1.0/transforms/8c6367015a89a34d18a86e45b4f5d18a/transformed/lifecycle-livedata-core-2.8.7/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.8.7] /Users/dankwawadie/.gradle/caches/9.1.0/transforms/8c6367015a89a34d18a86e45b4f5d18a/transformed/lifecycle-livedata-core-2.8.7/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-runtime-compose-android:2.8.7] /Users/dankwawadie/.gradle/caches/9.1.0/transforms/9cf9f4ef83533ad56cf1859b0203d685/transformed/lifecycle-runtime-compose-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.lifecycle:lifecycle-runtime-compose-android:2.8.7] /Users/dankwawadie/.gradle/caches/9.1.0/transforms/9cf9f4ef83533ad56cf1859b0203d685/transformed/lifecycle-runtime-compose-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-android:2.8.7] /Users/dankwawadie/.gradle/caches/9.1.0/transforms/24ac011438b80ba821422c36e8cd8309/transformed/lifecycle-viewmodel-release/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-android:2.8.7] /Users/dankwawadie/.gradle/caches/9.1.0/transforms/24ac011438b80ba821422c36e8cd8309/transformed/lifecycle-viewmodel-release/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-runtime-android:2.8.7] /Users/dankwawadie/.gradle/caches/9.1.0/transforms/27e6a819cb6f2691ccb9f108196d5bc5/transformed/lifecycle-runtime-release/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-runtime-android:2.8.7] /Users/dankwawadie/.gradle/caches/9.1.0/transforms/27e6a819cb6f2691ccb9f108196d5bc5/transformed/lifecycle-runtime-release/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-ktx:2.8.7] /Users/dankwawadie/.gradle/caches/9.1.0/transforms/9e3e81c4523374b4a1acf925dc149c8b/transformed/lifecycle-viewmodel-ktx-2.8.7/AndroidManifest.xml:5:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-ktx:2.8.7] /Users/dankwawadie/.gradle/caches/9.1.0/transforms/9e3e81c4523374b4a1acf925dc149c8b/transformed/lifecycle-viewmodel-ktx-2.8.7/AndroidManifest.xml:5:5-44
+MERGED from [androidx.lifecycle:lifecycle-runtime-ktx-android:2.8.7] /Users/dankwawadie/.gradle/caches/9.1.0/transforms/d712a4f84512767d36b12e97a344511e/transformed/lifecycle-runtime-ktx-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.lifecycle:lifecycle-runtime-ktx-android:2.8.7] /Users/dankwawadie/.gradle/caches/9.1.0/transforms/d712a4f84512767d36b12e97a344511e/transformed/lifecycle-runtime-ktx-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.8.7] /Users/dankwawadie/.gradle/caches/9.1.0/transforms/85b132ae5ec8d50a09da23a132447812/transformed/lifecycle-viewmodel-savedstate-2.8.7/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.8.7] /Users/dankwawadie/.gradle/caches/9.1.0/transforms/85b132ae5ec8d50a09da23a132447812/transformed/lifecycle-viewmodel-savedstate-2.8.7/AndroidManifest.xml:20:5-44
+MERGED from [androidx.core:core-ktx:1.15.0] /Users/dankwawadie/.gradle/caches/9.1.0/transforms/7640efec444acd0b0d9a91775a927d53/transformed/core-ktx-1.15.0/AndroidManifest.xml:5:5-44
+MERGED from [androidx.core:core-ktx:1.15.0] /Users/dankwawadie/.gradle/caches/9.1.0/transforms/7640efec444acd0b0d9a91775a927d53/transformed/core-ktx-1.15.0/AndroidManifest.xml:5:5-44
+MERGED from [androidx.interpolator:interpolator:1.0.0] /Users/dankwawadie/.gradle/caches/9.1.0/transforms/85a0e11a1688340d91d84fac5d8eb4a9/transformed/interpolator-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.interpolator:interpolator:1.0.0] /Users/dankwawadie/.gradle/caches/9.1.0/transforms/85a0e11a1688340d91d84fac5d8eb4a9/transformed/interpolator-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.profileinstaller:profileinstaller:1.3.1] /Users/dankwawadie/.gradle/caches/9.1.0/transforms/9d16287013272b989116d0cfbdaf7780/transformed/profileinstaller-1.3.1/AndroidManifest.xml:21:5-44
+MERGED from [androidx.profileinstaller:profileinstaller:1.3.1] /Users/dankwawadie/.gradle/caches/9.1.0/transforms/9d16287013272b989116d0cfbdaf7780/transformed/profileinstaller-1.3.1/AndroidManifest.xml:21:5-44
+MERGED from [androidx.startup:startup-runtime:1.1.1] /Users/dankwawadie/.gradle/caches/9.1.0/transforms/b3df8f1ca970324307684e9333b45f3a/transformed/startup-runtime-1.1.1/AndroidManifest.xml:21:5-23:41
+MERGED from [androidx.startup:startup-runtime:1.1.1] /Users/dankwawadie/.gradle/caches/9.1.0/transforms/b3df8f1ca970324307684e9333b45f3a/transformed/startup-runtime-1.1.1/AndroidManifest.xml:21:5-23:41
+MERGED from [androidx.tracing:tracing:1.2.0] /Users/dankwawadie/.gradle/caches/9.1.0/transforms/5aabfc970064036b660b77948b85d9e1/transformed/tracing-1.2.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.tracing:tracing:1.2.0] /Users/dankwawadie/.gradle/caches/9.1.0/transforms/5aabfc970064036b660b77948b85d9e1/transformed/tracing-1.2.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /Users/dankwawadie/.gradle/caches/9.1.0/transforms/1383cb4e561f1c932d6342b21145d764/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /Users/dankwawadie/.gradle/caches/9.1.0/transforms/1383cb4e561f1c932d6342b21145d764/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.compose.runtime:runtime-android:1.7.5] /Users/dankwawadie/.gradle/caches/9.1.0/transforms/0e1fbb770928f14a85f996f2aee45cfb/transformed/runtime-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.runtime:runtime-android:1.7.5] /Users/dankwawadie/.gradle/caches/9.1.0/transforms/0e1fbb770928f14a85f996f2aee45cfb/transformed/runtime-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.runtime:runtime-saveable-android:1.7.5] /Users/dankwawadie/.gradle/caches/9.1.0/transforms/5d24fd962b4cd36a0739b8f734a8e358/transformed/runtime-saveable-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.runtime:runtime-saveable-android:1.7.5] /Users/dankwawadie/.gradle/caches/9.1.0/transforms/5d24fd962b4cd36a0739b8f734a8e358/transformed/runtime-saveable-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.arch.core:core-runtime:2.2.0] /Users/dankwawadie/.gradle/caches/9.1.0/transforms/9421cf7b193e61c9f5f66e6aac549aed/transformed/core-runtime-2.2.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.arch.core:core-runtime:2.2.0] /Users/dankwawadie/.gradle/caches/9.1.0/transforms/9421cf7b193e61c9f5f66e6aac549aed/transformed/core-runtime-2.2.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.annotation:annotation-experimental:1.4.1] /Users/dankwawadie/.gradle/caches/9.1.0/transforms/2ae0361fa3f25bbe70ad753dfc425b7d/transformed/annotation-experimental-1.4.1/AndroidManifest.xml:5:5-44
+MERGED from [androidx.annotation:annotation-experimental:1.4.1] /Users/dankwawadie/.gradle/caches/9.1.0/transforms/2ae0361fa3f25bbe70ad753dfc425b7d/transformed/annotation-experimental-1.4.1/AndroidManifest.xml:5:5-44
+	android:targetSdkVersion
+		INJECTED from /Volumes/Samsung_ssd/Downloads/bitchat-main/android_campusmesh/app/src/main/AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from /Volumes/Samsung_ssd/Downloads/bitchat-main/android_campusmesh/app/src/main/AndroidManifest.xml
+provider#androidx.startup.InitializationProvider
+ADDED from [androidx.emoji2:emoji2:1.3.0] /Users/dankwawadie/.gradle/caches/9.1.0/transforms/a9b7b19428d2037fe82636e2e4be4c8f/transformed/emoji2-1.3.0/AndroidManifest.xml:24:9-32:20
+MERGED from [androidx.lifecycle:lifecycle-process:2.8.7] /Users/dankwawadie/.gradle/caches/9.1.0/transforms/8da3907b67b55effaeb1359f99c90400/transformed/lifecycle-process-2.8.7/AndroidManifest.xml:24:9-32:20
+MERGED from [androidx.lifecycle:lifecycle-process:2.8.7] /Users/dankwawadie/.gradle/caches/9.1.0/transforms/8da3907b67b55effaeb1359f99c90400/transformed/lifecycle-process-2.8.7/AndroidManifest.xml:24:9-32:20
+MERGED from [androidx.profileinstaller:profileinstaller:1.3.1] /Users/dankwawadie/.gradle/caches/9.1.0/transforms/9d16287013272b989116d0cfbdaf7780/transformed/profileinstaller-1.3.1/AndroidManifest.xml:24:9-32:20
+MERGED from [androidx.profileinstaller:profileinstaller:1.3.1] /Users/dankwawadie/.gradle/caches/9.1.0/transforms/9d16287013272b989116d0cfbdaf7780/transformed/profileinstaller-1.3.1/AndroidManifest.xml:24:9-32:20
+MERGED from [androidx.startup:startup-runtime:1.1.1] /Users/dankwawadie/.gradle/caches/9.1.0/transforms/b3df8f1ca970324307684e9333b45f3a/transformed/startup-runtime-1.1.1/AndroidManifest.xml:26:9-30:34
+MERGED from [androidx.startup:startup-runtime:1.1.1] /Users/dankwawadie/.gradle/caches/9.1.0/transforms/b3df8f1ca970324307684e9333b45f3a/transformed/startup-runtime-1.1.1/AndroidManifest.xml:26:9-30:34
+	tools:node
+		ADDED from [androidx.emoji2:emoji2:1.3.0] /Users/dankwawadie/.gradle/caches/9.1.0/transforms/a9b7b19428d2037fe82636e2e4be4c8f/transformed/emoji2-1.3.0/AndroidManifest.xml:28:13-31
+	android:authorities
+		ADDED from [androidx.emoji2:emoji2:1.3.0] /Users/dankwawadie/.gradle/caches/9.1.0/transforms/a9b7b19428d2037fe82636e2e4be4c8f/transformed/emoji2-1.3.0/AndroidManifest.xml:26:13-68
+	android:exported
+		ADDED from [androidx.emoji2:emoji2:1.3.0] /Users/dankwawadie/.gradle/caches/9.1.0/transforms/a9b7b19428d2037fe82636e2e4be4c8f/transformed/emoji2-1.3.0/AndroidManifest.xml:27:13-37
+	android:name
+		ADDED from [androidx.emoji2:emoji2:1.3.0] /Users/dankwawadie/.gradle/caches/9.1.0/transforms/a9b7b19428d2037fe82636e2e4be4c8f/transformed/emoji2-1.3.0/AndroidManifest.xml:25:13-67
+meta-data#androidx.emoji2.text.EmojiCompatInitializer
+ADDED from [androidx.emoji2:emoji2:1.3.0] /Users/dankwawadie/.gradle/caches/9.1.0/transforms/a9b7b19428d2037fe82636e2e4be4c8f/transformed/emoji2-1.3.0/AndroidManifest.xml:29:13-31:52
+	android:value
+		ADDED from [androidx.emoji2:emoji2:1.3.0] /Users/dankwawadie/.gradle/caches/9.1.0/transforms/a9b7b19428d2037fe82636e2e4be4c8f/transformed/emoji2-1.3.0/AndroidManifest.xml:31:17-49
+	android:name
+		ADDED from [androidx.emoji2:emoji2:1.3.0] /Users/dankwawadie/.gradle/caches/9.1.0/transforms/a9b7b19428d2037fe82636e2e4be4c8f/transformed/emoji2-1.3.0/AndroidManifest.xml:30:17-75
+permission#${applicationId}.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION
+ADDED from [androidx.core:core:1.15.0] /Users/dankwawadie/.gradle/caches/9.1.0/transforms/b8ad1c9bf78bbb933397d040ffe36b33/transformed/core-1.15.0/AndroidManifest.xml:22:5-24:47
+	android:protectionLevel
+		ADDED from [androidx.core:core:1.15.0] /Users/dankwawadie/.gradle/caches/9.1.0/transforms/b8ad1c9bf78bbb933397d040ffe36b33/transformed/core-1.15.0/AndroidManifest.xml:24:9-44
+	android:name
+		ADDED from [androidx.core:core:1.15.0] /Users/dankwawadie/.gradle/caches/9.1.0/transforms/b8ad1c9bf78bbb933397d040ffe36b33/transformed/core-1.15.0/AndroidManifest.xml:23:9-81
+permission#edu.gctu.campusmesh.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION
+ADDED from [androidx.core:core:1.15.0] /Users/dankwawadie/.gradle/caches/9.1.0/transforms/b8ad1c9bf78bbb933397d040ffe36b33/transformed/core-1.15.0/AndroidManifest.xml:22:5-24:47
+	android:protectionLevel
+		ADDED from [androidx.core:core:1.15.0] /Users/dankwawadie/.gradle/caches/9.1.0/transforms/b8ad1c9bf78bbb933397d040ffe36b33/transformed/core-1.15.0/AndroidManifest.xml:24:9-44
+	android:name
+		ADDED from [androidx.core:core:1.15.0] /Users/dankwawadie/.gradle/caches/9.1.0/transforms/b8ad1c9bf78bbb933397d040ffe36b33/transformed/core-1.15.0/AndroidManifest.xml:23:9-81
+uses-permission#${applicationId}.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION
+ADDED from [androidx.core:core:1.15.0] /Users/dankwawadie/.gradle/caches/9.1.0/transforms/b8ad1c9bf78bbb933397d040ffe36b33/transformed/core-1.15.0/AndroidManifest.xml:26:5-97
+	android:name
+		ADDED from [androidx.core:core:1.15.0] /Users/dankwawadie/.gradle/caches/9.1.0/transforms/b8ad1c9bf78bbb933397d040ffe36b33/transformed/core-1.15.0/AndroidManifest.xml:26:22-94
+uses-permission#edu.gctu.campusmesh.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION
+ADDED from [androidx.core:core:1.15.0] /Users/dankwawadie/.gradle/caches/9.1.0/transforms/b8ad1c9bf78bbb933397d040ffe36b33/transformed/core-1.15.0/AndroidManifest.xml:26:5-97
+	android:name
+		ADDED from [androidx.core:core:1.15.0] /Users/dankwawadie/.gradle/caches/9.1.0/transforms/b8ad1c9bf78bbb933397d040ffe36b33/transformed/core-1.15.0/AndroidManifest.xml:26:22-94
+meta-data#androidx.lifecycle.ProcessLifecycleInitializer
+ADDED from [androidx.lifecycle:lifecycle-process:2.8.7] /Users/dankwawadie/.gradle/caches/9.1.0/transforms/8da3907b67b55effaeb1359f99c90400/transformed/lifecycle-process-2.8.7/AndroidManifest.xml:29:13-31:52
+	android:value
+		ADDED from [androidx.lifecycle:lifecycle-process:2.8.7] /Users/dankwawadie/.gradle/caches/9.1.0/transforms/8da3907b67b55effaeb1359f99c90400/transformed/lifecycle-process-2.8.7/AndroidManifest.xml:31:17-49
+	android:name
+		ADDED from [androidx.lifecycle:lifecycle-process:2.8.7] /Users/dankwawadie/.gradle/caches/9.1.0/transforms/8da3907b67b55effaeb1359f99c90400/transformed/lifecycle-process-2.8.7/AndroidManifest.xml:30:17-78
+meta-data#androidx.profileinstaller.ProfileInstallerInitializer
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] /Users/dankwawadie/.gradle/caches/9.1.0/transforms/9d16287013272b989116d0cfbdaf7780/transformed/profileinstaller-1.3.1/AndroidManifest.xml:29:13-31:52
+	android:value
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] /Users/dankwawadie/.gradle/caches/9.1.0/transforms/9d16287013272b989116d0cfbdaf7780/transformed/profileinstaller-1.3.1/AndroidManifest.xml:31:17-49
+	android:name
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] /Users/dankwawadie/.gradle/caches/9.1.0/transforms/9d16287013272b989116d0cfbdaf7780/transformed/profileinstaller-1.3.1/AndroidManifest.xml:30:17-85
+receiver#androidx.profileinstaller.ProfileInstallReceiver
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] /Users/dankwawadie/.gradle/caches/9.1.0/transforms/9d16287013272b989116d0cfbdaf7780/transformed/profileinstaller-1.3.1/AndroidManifest.xml:34:9-52:20
+	android:enabled
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] /Users/dankwawadie/.gradle/caches/9.1.0/transforms/9d16287013272b989116d0cfbdaf7780/transformed/profileinstaller-1.3.1/AndroidManifest.xml:37:13-35
+	android:exported
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] /Users/dankwawadie/.gradle/caches/9.1.0/transforms/9d16287013272b989116d0cfbdaf7780/transformed/profileinstaller-1.3.1/AndroidManifest.xml:38:13-36
+	android:permission
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] /Users/dankwawadie/.gradle/caches/9.1.0/transforms/9d16287013272b989116d0cfbdaf7780/transformed/profileinstaller-1.3.1/AndroidManifest.xml:39:13-57
+	android:directBootAware
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] /Users/dankwawadie/.gradle/caches/9.1.0/transforms/9d16287013272b989116d0cfbdaf7780/transformed/profileinstaller-1.3.1/AndroidManifest.xml:36:13-44
+	android:name
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] /Users/dankwawadie/.gradle/caches/9.1.0/transforms/9d16287013272b989116d0cfbdaf7780/transformed/profileinstaller-1.3.1/AndroidManifest.xml:35:13-76
+intent-filter#action:name:androidx.profileinstaller.action.INSTALL_PROFILE
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] /Users/dankwawadie/.gradle/caches/9.1.0/transforms/9d16287013272b989116d0cfbdaf7780/transformed/profileinstaller-1.3.1/AndroidManifest.xml:40:13-42:29
+action#androidx.profileinstaller.action.INSTALL_PROFILE
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] /Users/dankwawadie/.gradle/caches/9.1.0/transforms/9d16287013272b989116d0cfbdaf7780/transformed/profileinstaller-1.3.1/AndroidManifest.xml:41:17-91
+	android:name
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] /Users/dankwawadie/.gradle/caches/9.1.0/transforms/9d16287013272b989116d0cfbdaf7780/transformed/profileinstaller-1.3.1/AndroidManifest.xml:41:25-88
+intent-filter#action:name:androidx.profileinstaller.action.SKIP_FILE
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] /Users/dankwawadie/.gradle/caches/9.1.0/transforms/9d16287013272b989116d0cfbdaf7780/transformed/profileinstaller-1.3.1/AndroidManifest.xml:43:13-45:29
+action#androidx.profileinstaller.action.SKIP_FILE
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] /Users/dankwawadie/.gradle/caches/9.1.0/transforms/9d16287013272b989116d0cfbdaf7780/transformed/profileinstaller-1.3.1/AndroidManifest.xml:44:17-85
+	android:name
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] /Users/dankwawadie/.gradle/caches/9.1.0/transforms/9d16287013272b989116d0cfbdaf7780/transformed/profileinstaller-1.3.1/AndroidManifest.xml:44:25-82
+intent-filter#action:name:androidx.profileinstaller.action.SAVE_PROFILE
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] /Users/dankwawadie/.gradle/caches/9.1.0/transforms/9d16287013272b989116d0cfbdaf7780/transformed/profileinstaller-1.3.1/AndroidManifest.xml:46:13-48:29
+action#androidx.profileinstaller.action.SAVE_PROFILE
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] /Users/dankwawadie/.gradle/caches/9.1.0/transforms/9d16287013272b989116d0cfbdaf7780/transformed/profileinstaller-1.3.1/AndroidManifest.xml:47:17-88
+	android:name
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] /Users/dankwawadie/.gradle/caches/9.1.0/transforms/9d16287013272b989116d0cfbdaf7780/transformed/profileinstaller-1.3.1/AndroidManifest.xml:47:25-85
+intent-filter#action:name:androidx.profileinstaller.action.BENCHMARK_OPERATION
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] /Users/dankwawadie/.gradle/caches/9.1.0/transforms/9d16287013272b989116d0cfbdaf7780/transformed/profileinstaller-1.3.1/AndroidManifest.xml:49:13-51:29
+action#androidx.profileinstaller.action.BENCHMARK_OPERATION
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] /Users/dankwawadie/.gradle/caches/9.1.0/transforms/9d16287013272b989116d0cfbdaf7780/transformed/profileinstaller-1.3.1/AndroidManifest.xml:50:17-95
+	android:name
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] /Users/dankwawadie/.gradle/caches/9.1.0/transforms/9d16287013272b989116d0cfbdaf7780/transformed/profileinstaller-1.3.1/AndroidManifest.xml:50:25-92

@@ -1,0 +1,43 @@
+{
+  "school_name": "Ghana Communication Technology University",
+  "school_short_name": "GCTU",
+  "github_repo_owner": "your-username",
+  "github_repo_name": "campus-mesh",
+  "update_channel": "stable",
+  "wifi_hotspot_ssid": "Campus-Mesh-GCTU",
+  "wifi_hotspot_pass": "GCTUSecure2026",
+  "web_server_port": 8080,
+  "mdns_hostname": "campusmesh.local",
+  "campuses": [
+    {
+      "id": "main_campus",
+      "name": "Main Campus (Tesano)",
+      "latitude": 5.5961352,
+      "longitude": -0.2234766,
+      "geohash": "w4zb8",
+      "radius_meters": 800,
+      "channels": [
+        "#gctu-announcements",
+        "#computing-cis",
+        "#engineering",
+        "#business-school",
+        "#src-general",
+        "#hostel-mesh"
+      ]
+    },
+    {
+      "id": "abeka_campus",
+      "name": "Abeka Campus (School of IT Business)",
+      "latitude": 5.5995349,
+      "longitude": -0.2388291,
+      "geohash": "w4zb9",
+      "radius_meters": 500,
+      "channels": [
+        "#abeka-announcements",
+        "#abeka-it-business",
+        "#abeka-graduate-studies",
+        "#abeka-library"
+      ]
+    }
+  ]
+}

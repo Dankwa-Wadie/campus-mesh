@@ -1,0 +1,23 @@
+*.iml
+.gradle
+/local.properties
+/.idea/
+.DS_Store
+/build
+/captures
+.externalNativeBuild
+.cxx
+local.properties
+
+# Android Keystore & Secret Keys
+*.keystore
+*.jks
+*.pem
+admin_private_key.pem
+secrets.json
+.env
+
+# Database & Map Tile Caches
+*.db
+*.db-journal
+*.mbtiles

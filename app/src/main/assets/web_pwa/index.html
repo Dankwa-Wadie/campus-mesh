@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Campus Mesh - GCTU Offline Chat</title>
+  <link rel="manifest" href="manifest.json">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div id="app-container">
+    <header class="app-header">
+      <div class="logo-title">
+        <span class="campus-badge">GCTU</span>
+        <h1>Campus Mesh</h1>
+      </div>
+      <div class="mode-selector">
+        <select id="campus-select">
+          <option value="main_campus">Main Campus (Tesano)</option>
+          <option value="abeka_campus">Abeka Campus (SITB)</option>
+          <option value="general_mesh">General Off-Campus Mesh</option>
+        </select>
+      </div>
+    </header>
+
+    <div class="main-layout">
+      <aside class="sidebar">
+        <div class="profile-card">
+          <div id="user-badge" class="badge student-badge">[Student • Web]</div>
+          <div id="user-name">Guest User</div>
+          <div id="user-id" class="peer-id">ID: web-a7f9b2</div>
+        </div>
+        <nav class="channel-nav">
+          <h3>Faculty & Mesh Channels</h3>
+          <ul id="channel-list">
+            <li class="active" data-channel="#gctu-announcements">📢 #gctu-announcements</li>
+            <li data-channel="#computing-cis">💻 #computing-cis</li>
+            <li data-channel="#engineering">⚙️ #engineering</li>
+            <li data-channel="#business-school">📊 #business-school</li>
+            <li data-channel="#src-general">🏛️ #src-general</li>
+            <li data-channel="#general-mesh">🌐 #general-mesh</li>
+          </ul>
+        </nav>
+      </aside>
+
+      <main class="chat-area">
+        <div class="channel-header">
+          <h2 id="active-channel-name">📢 #gctu-announcements</h2>
+          <span class="channel-status">Read-Only Official Channel</span>
+        </div>
+        <div id="message-list" class="message-list">
+          <div class="message official">
+            <div class="msg-meta">
+              <span class="badge official-badge">[GCTU Official • Verified]</span>
+              <span class="sender">Office of the Registrar</span>
+              <span class="time">10:00 AM</span>
+            </div>
+            <div class="msg-body">
+              Welcome to Ghana Communication Technology University Campus Mesh! All official announcements are cryptographically verified offline.
+            </div>
+          </div>
+        </div>
+        <div class="chat-input-bar">
+          <input type="text" id="chat-input" placeholder="Type a message to nearby mesh peers..." disabled>
+          <button id="send-btn" disabled>Send</button>
+        </div>
+      </main>
+    </div>
+  </div>
+
+  <script src="crypto.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>
