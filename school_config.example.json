@@ -1,7 +1,7 @@
 {
   "school_name": "Ghana Communication Technology University",
   "school_short_name": "GCTU",
-  "github_repo_owner": "your-username",
+  "github_repo_owner": "Dankwa-Wadie",
   "github_repo_name": "campus-mesh",
   "update_channel": "stable",
   "wifi_hotspot_ssid": "Campus-Mesh-GCTU",
